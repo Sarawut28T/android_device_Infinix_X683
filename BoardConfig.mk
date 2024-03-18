@@ -16,7 +16,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/TECNO/LD7
+DEVICE_PATH := device/Infinix/X683
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -37,10 +37,10 @@ TARGET_BOARD_SUFFIX := _64
 TARGET_USES_64_BIT_BINDER := true
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := TECNO-LD7
+TARGET_OTA_ASSERT_DEVICE := Infinix-X683
 
 # Bootloader"
-TARGET_BOOTLOADER_BOARD_NAME := CY-LD7-H694-N
+TARGET_BOOTLOADER_BOARD_NAME := X683-H694-E
 
 # Crypto
 TW_INCLUDE_CRYPTO := true
