@@ -17,7 +17,7 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := TECNO-LD7
+PRODUCT_RELEASE_NAME := Infinix-X683
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
@@ -25,20 +25,20 @@ $(call inherit-product-if-exists, $(SRC_TARGET_DIR)/product/embedded.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
-# Inherit from TECNO-LD7 device
-$(call inherit-product, device/TECNO/LD7/device.mk)
+# Inherit from Infinix-X683 device
+$(call inherit-product, device/Infinix/X683/device.mk)
 
 # Inherit some common Pitchblack stuff.
 $(call inherit-product, vendor/pb/config/common.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := LD7
+PRODUCT_DEVICE := X683
 PRODUCT_NAME := omni_$(PRODUCT_DEVICE)
-PRODUCT_BRAND := TECNO
-PRODUCT_MODEL := TECNO LD7
-PRODUCT_MANUFACTURER := TECNO MOBILE LIMITED
+PRODUCT_BRAND := Infinix
+PRODUCT_MODEL := Infinix X683
+PRODUCT_MANUFACTURER := Infinix MOBILE LIMITED
 
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=LD7-OP \
-    PRODUCT_DEVICE=TECNO-LD7
+    PRODUCT_NAME=X683-OP \
+    PRODUCT_DEVICE=Infinix-X683
